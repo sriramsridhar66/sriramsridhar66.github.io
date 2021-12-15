@@ -8,10 +8,8 @@
     position: relative;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 0 0 5px #000;
+    color: black;
+    text-shadow: 0 0 5px blanchedalmond
   }
 
   .parallax::after {
@@ -36,12 +34,4 @@
   
   .bg2::after {
     background-image: url('/assets/images/fighter.jpg');
-  }
-
-  h {
-      color: darkblue
-  }
-  
-  p {
-      color: black;
   }
