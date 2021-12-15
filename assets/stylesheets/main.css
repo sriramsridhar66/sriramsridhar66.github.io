@@ -37,3 +37,11 @@
   .bg2::after {
     background-image: url('/assets/images/fighter.jpg');
   }
+
+  h {
+      color: darkblue
+  }
+  
+  p {
+      color: black;
+  }
