@@ -6,10 +6,9 @@
 
   .section { 
     position: relative;
-    height: 100vh;
+    height: 50%;
     display: flex;
     color: black;
-    text-shadow: 0 0 5px blanchedalmond
   }
 
   .parallax::after {
@@ -29,9 +28,13 @@
   }
 
   .bg1::after {
-    background-image: url('/assets/images/fighter.jpg');
+    background-image: url('../images/fighter.jpg');
   }
   
   .bg2::after {
-    background-image: url('/assets/images/fighter.jpg');
+    background-image: url('../images/fighter.jpg');
+  }
+
+  h {
+    font-size: 100px;
   }
