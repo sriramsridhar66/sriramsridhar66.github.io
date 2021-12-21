@@ -61,7 +61,7 @@ h1 {
 .sidebar {
   height: 20%;
   width: 10%;
-  position: -webkit-sticky; /* for Safari users */
+  /* position: -webkit-sticky; for Safari users */
   color: white;
   font-family: sans-serif;
   position: sticky;
