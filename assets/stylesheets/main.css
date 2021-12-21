@@ -1,7 +1,28 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+main {
+  margin-left: 150px;
+}
+
+a { text-decoration: none;}
+a:hover { text-decoration: none;}
+a:focus { text-decoration: none;}
+a:active { text-decoration: none;}
+a:visited {text-decoration: none;}
+
+#name:visited { text-decoration: none;}
+
 .section { 
   color: white;
   padding: 5%;
   z-index: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
 }
 
 .parallax {
@@ -36,3 +57,29 @@ h1 {
   font-size: xx-large;
   text-align: center;
 }
+
+.sidebar {
+  height: 200px;
+  width: 150px;
+  position: -webkit-sticky; /* for Safari users */
+  color: white;
+  font-family: sans-serif;
+  position: sticky;
+  top: 0px;
+  float: left;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: black;
+  }
+  
+  .sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  }
+
+  .sidebar .name {
+    font-size: 28px;
+    border-style: groove;
+    box-shadow: 3px 3px;
+  }
