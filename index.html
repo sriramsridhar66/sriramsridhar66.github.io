@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href='assets/stylesheets/main.css'>
-        <meta charset="utf-8">
-        <title> Sriram Sridhar </title>
-    </head>
-    <body style='background-color:black;'>
-        <div class="sidebar">
-            <a href="#greeting">
-                <div class="name">SRIRAM<br>SRIDHAR</div>
-            </a>
-            <div>
-                <a href="#aboutme">About Me</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+    <title>Website</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="home">
+                    <a href="#hero"><h1>Sriram Sridhar</h1></a>
+                </div>
+                <dic class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#">Work Experience</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </dic>
             </div>
-            <div>Education</div>
-            <div>Work Experience</div>
-            <div>Projects</div>
         </div>
-        <main>
-            <div class='section content title'>I KNOW THIS PAGE LOOKS PRETTY BAD IT'S A WORK IN PROGRESS OK</div>
-            <div class='section content title' id='greeting'>Hi! My name is Sriram Sridhar.</div>
-            <div class="section parallax bg1"></div>
-            <div class='section subtitle'>About Me</div>
-            <div class="section content" id="aboutme">
-                <p>Hello! I am a junior at the University of Illinois at Urbana-Champaign, majoring in Aerospace Engineering with a minor in Computer Science.</p>
-                <p>My specific areas of interest and experience include control systems in autonomous robotics, computational fluid dynamics, and aircraft flight mechanics.</p>
-                <p>I am currently looking for a Summer 2022 internship where I would be able to support projects in one or more of these fields.</p>
-            </div>
-            <div class="section parallax bg1"></div>
-        </div>
-        </main>
-    </body>
+    </section>
+    <!-- End of Header -->
+
+  <!-- Hero Section -->
+  <section id="hero">
+      <div class="hero container">
+          <div>
+              <h2>I KNOW THIS PAGE LOOKS PRETTY BAD IT'S A WORK IN PROGRESS OK</h2>
+              <h1>Sriram Sridhar</h1>
+              <a href="#about-me" type="button" class="cta">About Me</a>
+          </div>
+      </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- About Me Section -->
+  <section id="about-me">
+      <div class="about container">
+          <div class="about-body">
+            <h1 class="section-title">About Me</h1>
+            <p>Hello! I am a junior at the University of Illinois at Urbana-Champaign, majoring in Aerospace Engineering with a minor in Computer Science. 
+                My specific areas of interest and experience include control systems in autonomous robotics, computational fluid dynamics, and aircraft flight mechanics. 
+                I am currently looking for a Summer 2022 internship where I would be able to support projects in one or more of these fields.</p>
+          </div>
+      </div>
+  </section>
+  <!-- End About Me Section -->
+  <script src="/app.js"></script>
+</body>
 </html>
