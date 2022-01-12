@@ -24,6 +24,11 @@ a {
   justify-content: center;
 }
 
+.home h1 {
+	text-transform: uppercase;
+	color: white;
+}
+
 /* Header Section */
 #header {
   position: fixed;
@@ -33,13 +38,16 @@ a {
   width: 100vw;
   height: auto;
 }
-#header .home a, a:visited, a:active{
-  font-size: 2rem;
+#header .home h1{
+  font-size: 4rem;
   text-decoration: none;
+}
+#header .home h1:hover {
+  color: crimson;
 }
 #header .header {
   min-height: 10vh;
-  background-color: rgba(52, 22, 122, 0.25);
+  background-color: rgba(0, 20, 65, 0.75);
 }
 #header .nav-bar {
   display: flex;
@@ -81,7 +89,6 @@ a {
 }
 #header .nav-list ul li:hover a {
   color: crimson;
-
 }
 #header .hamburger {
   height: 60px;
@@ -153,6 +160,15 @@ a {
   position: relative;
   color: white;
 }
+#hero h2 {
+  width: fit-content;
+  font-size: 2rem;
+  position: relative;
+  color: white;
+}
+#hero .hero-text {
+  padding-left: 2%;
+}
 #hero .cta {
   display: inline-block;
   padding: 10px 30px;
@@ -167,6 +183,11 @@ a {
 }
 #hero .cta:hover {
   background-color: crimson;
+}
+#hero img {
+  max-width: 250px;
+  height: auto;
+  box-shadow: 10px 5px 5px black;
 }
 /* End Hero Section */
 
@@ -186,5 +207,9 @@ a {
   }
   #header .nav-list ul li a{
     font-size: 1.5rem;
+  }
+
+  #hero img {
+    max-width: 20%;
   }
 }
