@@ -163,7 +163,7 @@ a {
 #hero h2 {
   width: fit-content;
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: 300;
   position: relative;
   color: white;
 }
